@@ -8,12 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		5F243EBA2BC6E48500A844C4 /* AlexAnimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F243EB92BC6E48500A844C4 /* AlexAnimeApp.swift */; };
-		5F243EBC2BC6E48500A844C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F243EBB2BC6E48500A844C4 /* ContentView.swift */; };
+		5F243EBC2BC6E48500A844C4 /* AnimeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F243EBB2BC6E48500A844C4 /* AnimeListView.swift */; };
 		5F243EBE2BC6E48600A844C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F243EBD2BC6E48600A844C4 /* Assets.xcassets */; };
 		5F243EC12BC6E48600A844C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F243EC02BC6E48600A844C4 /* Preview Assets.xcassets */; };
 		5F243ECB2BC6E48600A844C4 /* AlexAnimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F243ECA2BC6E48600A844C4 /* AlexAnimeTests.swift */; };
 		5F243ED52BC6E48600A844C4 /* AlexAnimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F243ED42BC6E48600A844C4 /* AlexAnimeUITests.swift */; };
 		5F243ED72BC6E48600A844C4 /* AlexAnimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F243ED62BC6E48600A844C4 /* AlexAnimeUITestsLaunchTests.swift */; };
+		5F243EE42BC6E49F00A844C4 /* AnimesAC2024.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F243EE32BC6E49F00A844C4 /* AnimesAC2024.json */; };
+		5F243EE62BC6E4A800A844C4 /* AnimesTestAC2024.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F243EE52BC6E4A800A844C4 /* AnimesTestAC2024.json */; };
+		5F243EEE2BC6E63900A844C4 /* AnimeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F243EED2BC6E63900A844C4 /* AnimeDTO.swift */; };
+		5F243EF02BC6F20600A844C4 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F243EEF2BC6F20600A844C4 /* Anime.swift */; };
+		5F243EF22BC6F2EB00A844C4 /* JSONInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F243EF12BC6F2EB00A844C4 /* JSONInteractor.swift */; };
+		5F427D5E2BCBE2830066D2E3 /* StarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F427D5D2BCBE2830066D2E3 /* StarView.swift */; };
+		5F51447E2BCECE2200E77BCB /* DetailAnimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F51447D2BCECE2200E77BCB /* DetailAnimeView.swift */; };
+		5F5EA36D2BD2CCE1007F1BEC /* HomeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5EA36C2BD2CCE1007F1BEC /* HomeTabView.swift */; };
+		5F5EA36F2BD2CD56007F1BEC /* FavoritedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F5EA36E2BD2CD56007F1BEC /* FavoritedList.swift */; };
+		5F8499E62BC83DE9001FD994 /* URLInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8499E52BC83DE9001FD994 /* URLInteractor.swift */; };
+		5F8499E92BC83E26001FD994 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8499E82BC83E26001FD994 /* TestData.swift */; };
+		5F8499EB2BC83E49001FD994 /* AnimeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8499EA2BC83E49001FD994 /* AnimeInteractor.swift */; };
+		5F8499EF2BC841CC001FD994 /* AnimeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8499EE2BC841CC001FD994 /* AnimeListViewModel.swift */; };
+		5F8F77952BD02DDB00E83B2D /* ToolbarFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8F77942BD02DDB00E83B2D /* ToolbarFilterView.swift */; };
+		5FBA5B5F2BC9887300B72AF0 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBA5B5E2BC9887300B72AF0 /* CellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +51,7 @@
 /* Begin PBXFileReference section */
 		5F243EB62BC6E48500A844C4 /* AlexAnime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexAnime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F243EB92BC6E48500A844C4 /* AlexAnimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexAnimeApp.swift; sourceTree = "<group>"; };
-		5F243EBB2BC6E48500A844C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5F243EBB2BC6E48500A844C4 /* AnimeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListView.swift; sourceTree = "<group>"; };
 		5F243EBD2BC6E48600A844C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F243EC02BC6E48600A844C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F243EC62BC6E48600A844C4 /* AlexAnimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlexAnimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +59,21 @@
 		5F243ED02BC6E48600A844C4 /* AlexAnimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlexAnimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F243ED42BC6E48600A844C4 /* AlexAnimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexAnimeUITests.swift; sourceTree = "<group>"; };
 		5F243ED62BC6E48600A844C4 /* AlexAnimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexAnimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5F243EE32BC6E49F00A844C4 /* AnimesAC2024.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AnimesAC2024.json; sourceTree = "<group>"; };
+		5F243EE52BC6E4A800A844C4 /* AnimesTestAC2024.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AnimesTestAC2024.json; sourceTree = "<group>"; };
+		5F243EED2BC6E63900A844C4 /* AnimeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDTO.swift; sourceTree = "<group>"; };
+		5F243EEF2BC6F20600A844C4 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
+		5F243EF12BC6F2EB00A844C4 /* JSONInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONInteractor.swift; sourceTree = "<group>"; };
+		5F427D5D2BCBE2830066D2E3 /* StarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarView.swift; sourceTree = "<group>"; };
+		5F51447D2BCECE2200E77BCB /* DetailAnimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAnimeView.swift; sourceTree = "<group>"; };
+		5F5EA36C2BD2CCE1007F1BEC /* HomeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabView.swift; sourceTree = "<group>"; };
+		5F5EA36E2BD2CD56007F1BEC /* FavoritedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritedList.swift; sourceTree = "<group>"; };
+		5F8499E52BC83DE9001FD994 /* URLInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLInteractor.swift; sourceTree = "<group>"; };
+		5F8499E82BC83E26001FD994 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		5F8499EA2BC83E49001FD994 /* AnimeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeInteractor.swift; sourceTree = "<group>"; };
+		5F8499EE2BC841CC001FD994 /* AnimeListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeListViewModel.swift; sourceTree = "<group>"; };
+		5F8F77942BD02DDB00E83B2D /* ToolbarFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarFilterView.swift; sourceTree = "<group>"; };
+		5FBA5B5E2BC9887300B72AF0 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,9 +124,12 @@
 		5F243EB82BC6E48500A844C4 /* AlexAnime */ = {
 			isa = PBXGroup;
 			children = (
-				5F243EB92BC6E48500A844C4 /* AlexAnimeApp.swift */,
-				5F243EBB2BC6E48500A844C4 /* ContentView.swift */,
-				5F243EBD2BC6E48600A844C4 /* Assets.xcassets */,
+				5F243EEB2BC6E5C200A844C4 /* Views */,
+				5F243EEC2BC6E5D200A844C4 /* ViewModel */,
+				5F243EE92BC6E56E00A844C4 /* Interactor */,
+				5F243EE72BC6E4F600A844C4 /* Model */,
+				5F243EE82BC6E55B00A844C4 /* Resources */,
+				5F243EEA2BC6E58100A844C4 /* System */,
 				5F243EBF2BC6E48600A844C4 /* Preview Content */,
 			);
 			path = AlexAnime;
@@ -106,6 +139,8 @@
 			isa = PBXGroup;
 			children = (
 				5F243EC02BC6E48600A844C4 /* Preview Assets.xcassets */,
+				5F243EE52BC6E4A800A844C4 /* AnimesTestAC2024.json */,
+				5F8499E82BC83E26001FD994 /* TestData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -125,6 +160,64 @@
 				5F243ED62BC6E48600A844C4 /* AlexAnimeUITestsLaunchTests.swift */,
 			);
 			path = AlexAnimeUITests;
+			sourceTree = "<group>";
+		};
+		5F243EE72BC6E4F600A844C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5F243EED2BC6E63900A844C4 /* AnimeDTO.swift */,
+				5F243EEF2BC6F20600A844C4 /* Anime.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5F243EE82BC6E55B00A844C4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F243EE32BC6E49F00A844C4 /* AnimesAC2024.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5F243EE92BC6E56E00A844C4 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				5F8499EA2BC83E49001FD994 /* AnimeInteractor.swift */,
+				5F243EF12BC6F2EB00A844C4 /* JSONInteractor.swift */,
+				5F8499E52BC83DE9001FD994 /* URLInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		5F243EEA2BC6E58100A844C4 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				5F243EB92BC6E48500A844C4 /* AlexAnimeApp.swift */,
+				5F243EBD2BC6E48600A844C4 /* Assets.xcassets */,
+			);
+			name = System;
+			sourceTree = "<group>";
+		};
+		5F243EEB2BC6E5C200A844C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5F5EA36C2BD2CCE1007F1BEC /* HomeTabView.swift */,
+				5F243EBB2BC6E48500A844C4 /* AnimeListView.swift */,
+				5F5EA36E2BD2CD56007F1BEC /* FavoritedList.swift */,
+				5FBA5B5E2BC9887300B72AF0 /* CellView.swift */,
+				5F427D5D2BCBE2830066D2E3 /* StarView.swift */,
+				5F51447D2BCECE2200E77BCB /* DetailAnimeView.swift */,
+				5F8F77942BD02DDB00E83B2D /* ToolbarFilterView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		5F243EEC2BC6E5D200A844C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5F8499EE2BC841CC001FD994 /* AnimeListViewModel.swift */,
+			);
+			name = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +326,8 @@
 			files = (
 				5F243EC12BC6E48600A844C4 /* Preview Assets.xcassets in Resources */,
 				5F243EBE2BC6E48600A844C4 /* Assets.xcassets in Resources */,
+				5F243EE62BC6E4A800A844C4 /* AnimesTestAC2024.json in Resources */,
+				5F243EE42BC6E49F00A844C4 /* AnimesAC2024.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +352,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F243EBC2BC6E48500A844C4 /* ContentView.swift in Sources */,
+				5F51447E2BCECE2200E77BCB /* DetailAnimeView.swift in Sources */,
+				5F8499E62BC83DE9001FD994 /* URLInteractor.swift in Sources */,
+				5F243EF02BC6F20600A844C4 /* Anime.swift in Sources */,
+				5F243EEE2BC6E63900A844C4 /* AnimeDTO.swift in Sources */,
+				5F243EBC2BC6E48500A844C4 /* AnimeListView.swift in Sources */,
 				5F243EBA2BC6E48500A844C4 /* AlexAnimeApp.swift in Sources */,
+				5F5EA36F2BD2CD56007F1BEC /* FavoritedList.swift in Sources */,
+				5F8499EB2BC83E49001FD994 /* AnimeInteractor.swift in Sources */,
+				5FBA5B5F2BC9887300B72AF0 /* CellView.swift in Sources */,
+				5F8499E92BC83E26001FD994 /* TestData.swift in Sources */,
+				5F427D5E2BCBE2830066D2E3 /* StarView.swift in Sources */,
+				5F8F77952BD02DDB00E83B2D /* ToolbarFilterView.swift in Sources */,
+				5F5EA36D2BD2CCE1007F1BEC /* HomeTabView.swift in Sources */,
+				5F8499EF2BC841CC001FD994 /* AnimeListViewModel.swift in Sources */,
+				5F243EF22BC6F2EB00A844C4 /* JSONInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

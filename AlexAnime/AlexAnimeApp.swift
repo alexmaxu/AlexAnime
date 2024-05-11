@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct AlexAnimeApp: App {
+    @StateObject var animeListViewModel = AnimeListViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeTabView()
+                .environmentObject(animeListViewModel)
         }
     }
 }
